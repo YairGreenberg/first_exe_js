@@ -1,0 +1,19 @@
+//1.1
+const score = 85;
+let scor = 60;
+if(score> 60){
+    console.log('passed the test');
+    
+}
+
+//1.2
+
+const temperature = 30;
+let temp = 30;
+ if (temp > temperature ){
+    console.log('It is hot today');
+    
+ }
+
+ //1.6
+ 
