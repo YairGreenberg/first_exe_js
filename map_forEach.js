@@ -62,6 +62,16 @@ console.log(string_to_upper(string));
 
 //6
 
+const stri = "yair"
+let  shiftLetters = (stri)=>{stri.map((char,index)=>{
+    stri[index]=fromCharCode(charCodeAt(char))
+})
+
+}
+console.log(shiftLetters(stri));
+
+
+
 
 
 
@@ -73,15 +83,12 @@ let swapCase = () =>{
      let string = str.split('');
      string.forEach((char,index)=>{
     if(index%2===0){
-         char.toUpperCase()
+         string[index] = char.toUpperCase()
     }else{
          char
     }
-     console.log(char,index);
      
 })
-console.log(string);
-
 const result = string.join("")
 return result
 }
